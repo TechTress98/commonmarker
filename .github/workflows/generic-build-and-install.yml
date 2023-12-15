@@ -51,7 +51,7 @@ jobs:
         with:
           ruby-version: "${{matrix.ruby}}"
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: generic-gem
           path: gems
@@ -68,7 +68,7 @@ jobs:
   #       with:
   #         ruby-version: "3.1"
 
-  #     - uses: actions/download-artifact@v3
+  #     - uses: actions/download-artifact@v4
   #       with:
   #         name: generic-gem
   #         path: gems
@@ -85,7 +85,7 @@ jobs:
   #       with:
   #         ruby-version: "3.1"
 
-  #     - uses: actions/download-artifact@v3
+  #     - uses: actions/download-artifact@v4
   #       with:
   #         name: generic-gem
   #         path: gems

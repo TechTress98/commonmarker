@@ -68,7 +68,7 @@ jobs:
            rubygems: latest
            ruby-version: "${{matrix.ruby}}"
 
-       - uses: actions/download-artifact@v3
+       - uses: actions/download-artifact@v4
          with:
            name: cruby-x86_64-linux-gem
            path: gems
@@ -89,7 +89,7 @@ jobs:
           rubygems: latest
           ruby-version: "${{matrix.ruby}}"
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: cruby-aarch64-linux-gem
           path: gems
@@ -116,7 +116,7 @@ jobs:
            rubygems: latest
            ruby-version: "${{matrix.ruby}}"
 
-       - uses: actions/download-artifact@v3
+       - uses: actions/download-artifact@v4
          with:
            name: cruby-x86_64-darwin-gem
            path: gems
@@ -137,7 +137,7 @@ jobs:
   #       with:
   #         ruby-version: "${{matrix.ruby}}"
 
-  #     - uses: actions/download-artifact@v3
+  #     - uses: actions/download-artifact@v4
   #       with:
   #         name: cruby-x64-mingw-ucrt-gem
   #         path: gems
