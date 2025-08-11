@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 magnus =  "0.7"
-comrak = "0.40"
+comrak = "0.41"
 
 [lib]
 name = "commonmarker"
