@@ -4,7 +4,7 @@ version = "1.0.0"
 edition = "2021"
 
 [dependencies]
-magnus =  "0.7"
+magnus =  "0.8"
 comrak = "0.41"
 
 [lib]
