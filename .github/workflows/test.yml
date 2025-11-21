@@ -16,7 +16,7 @@ jobs:
           - 3.2
 
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - uses: gjtorikian/actions/setup-ruby-and-rust@main
         with:
