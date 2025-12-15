@@ -32,7 +32,7 @@ jobs:
 
       - run: ./script/test-gem-build gems ruby
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v6
         with:
           name: generic-gem
           path: gems
