@@ -47,7 +47,7 @@ jobs:
         run: |
           ./script/test-gem-build gems ${{matrix.platform}}
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v7
         with:
           name: "cruby-${{matrix.platform}}-gem"
           path: gems
